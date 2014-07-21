@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.umlim.org/ontologies/TweetMapping#"
+     xml:base="http://www.umlim.org/ontologies/TweetMapping"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.umlim.org/ontologies/TweetMapping">
+        <owl:versionIRI rdf:resource="http://www.umlim.org/ontologies/TweetMapping/1.0.0"/>
+        <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:isDefinedBy rdf:resource="https://github.com/twcook/TweetMapping"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="&xsd;date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.umlim.org/ontologies/TweetMapping#OWLObjectProperty_21c390d6_4cb2_44fc_b58e_01173261b97e -->
+
+    <owl:ObjectProperty rdf:about="http://www.umlim.org/ontologies/TweetMapping#OWLObjectProperty_21c390d6_4cb2_44fc_b58e_01173261b97e">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label xml:lang="en">hasContent</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.umlim.org/ontologies/TweetMapping#OWLClass_8a453253_0613_450a_8666_586a461f884e"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.umlim.org/ontologies/TweetMapping#OWLDataProperty_2ae0d5e3_e441_4327_afee_2a5aacf3f19c"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.umlim.org/ontologies/TweetMapping#OWLObjectProperty_98bb1d9c_71cf_4699_b2d7_a6dfce14d5e1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.umlim.org/ontologies/TweetMapping#OWLObjectProperty_98bb1d9c_71cf_4699_b2d7_a6dfce14d5e1">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label xml:lang="en">hasBi-grams</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.umlim.org/ontologies/TweetMapping#OWLClass_8a453253_0613_450a_8666_586a461f884e"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.umlim.org/ontologies/TweetMapping#OWLDataProperty_87bfe86e_a644_4a79_aacf_b49cedcaf33f"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.umlim.org/ontologies/TweetMapping#OWLObjectProperty_9c0dc221_235c_4375_93e4_4ebb9a89ee75 -->
+
+    <owl:ObjectProperty rdf:about="http://www.umlim.org/ontologies/TweetMapping#OWLObjectProperty_9c0dc221_235c_4375_93e4_4ebb9a89ee75">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label xml:lang="en">hasFirstpost_date</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.umlim.org/ontologies/TweetMapping#OWLClass_8a453253_0613_450a_8666_586a461f884e"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.umlim.org/ontologies/TweetMapping#OWLDataProperty_274fef1c_358f_4430_ac34_86f701a3510e"/>
+                <owl:someValuesFrom rdf:resource="&xsd;date"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.umlim.org/ontologies/TweetMapping#OWLObjectProperty_adf69cf6_8c1b_4a3c_86d4_66d1d418957a -->
+
+    <owl:ObjectProperty rdf:about="http://www.umlim.org/ontologies/TweetMapping#OWLObjectProperty_adf69cf6_8c1b_4a3c_86d4_66d1d418957a">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label xml:lang="en">hasTri-grams</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.umlim.org/ontologies/TweetMapping#OWLClass_8a453253_0613_450a_8666_586a461f884e"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.umlim.org/ontologies/TweetMapping#OWLDataProperty_9db8c9b8_1e31_46d6_bfa8_30bcb181f992"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.umlim.org/ontologies/TweetMapping#OWLObjectProperty_f545e52b_f047_4408_bb84_baf366a18058 -->
+
+    <owl:ObjectProperty rdf:about="http://www.umlim.org/ontologies/TweetMapping#OWLObjectProperty_f545e52b_f047_4408_bb84_baf366a18058">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label xml:lang="en">hasPermalink</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.umlim.org/ontologies/TweetMapping#OWLClass_8a453253_0613_450a_8666_586a461f884e"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.umlim.org/ontologies/TweetMapping#OWLDataProperty_be5d81d7_0809_44cf_88f4_f751120cdba7"/>
+                <owl:someValuesFrom rdf:resource="&xsd;anyURI"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.umlim.org/ontologies/TweetMapping#OWLDataProperty_274fef1c_358f_4430_ac34_86f701a3510e -->
+
+    <owl:DatatypeProperty rdf:about="http://www.umlim.org/ontologies/TweetMapping#OWLDataProperty_274fef1c_358f_4430_ac34_86f701a3510e">
+        <rdfs:label xml:lang="en">firstpost_date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.umlim.org/ontologies/TweetMapping#OWLDataProperty_2ae0d5e3_e441_4327_afee_2a5aacf3f19c -->
+
+    <owl:DatatypeProperty rdf:about="http://www.umlim.org/ontologies/TweetMapping#OWLDataProperty_2ae0d5e3_e441_4327_afee_2a5aacf3f19c">
+        <rdfs:label xml:lang="en">text</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.umlim.org/ontologies/TweetMapping#OWLDataProperty_87bfe86e_a644_4a79_aacf_b49cedcaf33f -->
+
+    <owl:DatatypeProperty rdf:about="http://www.umlim.org/ontologies/TweetMapping#OWLDataProperty_87bfe86e_a644_4a79_aacf_b49cedcaf33f">
+        <rdfs:label xml:lang="en">bi-gram</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.umlim.org/ontologies/TweetMapping#OWLDataProperty_9db8c9b8_1e31_46d6_bfa8_30bcb181f992 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.umlim.org/ontologies/TweetMapping#OWLDataProperty_9db8c9b8_1e31_46d6_bfa8_30bcb181f992">
+        <rdfs:label xml:lang="en">tri-gram</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.umlim.org/ontologies/TweetMapping#OWLDataProperty_be5d81d7_0809_44cf_88f4_f751120cdba7 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.umlim.org/ontologies/TweetMapping#OWLDataProperty_be5d81d7_0809_44cf_88f4_f751120cdba7">
+        <rdfs:label xml:lang="en">url</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.umlim.org/ontologies/TweetMapping#OWLClass_8a453253_0613_450a_8666_586a461f884e -->
+
+    <owl:Class rdf:about="http://www.umlim.org/ontologies/TweetMapping#OWLClass_8a453253_0613_450a_8666_586a461f884e">
+        <rdfs:label xml:lang="en">Tweet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.umlim.org/ontologies/TweetMapping#OWLNamedIndividual_59b211c9_2a56_445b_bdfd_d20781d7603d -->
+
+    <owl:NamedIndividual rdf:about="http://www.umlim.org/ontologies/TweetMapping#OWLNamedIndividual_59b211c9_2a56_445b_bdfd_d20781d7603d">
+        <rdf:type rdf:resource="http://www.umlim.org/ontologies/TweetMapping#OWLClass_8a453253_0613_450a_8666_586a461f884e"/>
+        <rdfs:label xml:lang="en">1</rdfs:label>
+        <OWLDataProperty_274fef1c_358f_4430_ac34_86f701a3510e rdf:datatype="&xsd;date">2013-09-28</OWLDataProperty_274fef1c_358f_4430_ac34_86f701a3510e>
+        <OWLDataProperty_2ae0d5e3_e441_4327_afee_2a5aacf3f19c rdf:datatype="&xsd;string">This is my two words or more words text.</OWLDataProperty_2ae0d5e3_e441_4327_afee_2a5aacf3f19c>
+        <OWLDataProperty_be5d81d7_0809_44cf_88f4_f751120cdba7 rdf:datatype="&xsd;anyURI">http://twitter.com/ABumRap/status/473104369815404544</OWLDataProperty_be5d81d7_0809_44cf_88f4_f751120cdba7>
+        <OWLDataProperty_9db8c9b8_1e31_46d6_bfa8_30bcb181f992 rdf:datatype="&xsd;string">more words text</OWLDataProperty_9db8c9b8_1e31_46d6_bfa8_30bcb181f992>
+        <OWLDataProperty_87bfe86e_a644_4a79_aacf_b49cedcaf33f rdf:datatype="&xsd;string">two words</OWLDataProperty_87bfe86e_a644_4a79_aacf_b49cedcaf33f>
+        <OWLObjectProperty_21c390d6_4cb2_44fc_b58e_01173261b97e rdf:resource="http://www.umlim.org/ontologies/TweetMapping#OWLNamedIndividual_59b211c9_2a56_445b_bdfd_d20781d7603d"/>
+        <OWLObjectProperty_98bb1d9c_71cf_4699_b2d7_a6dfce14d5e1 rdf:resource="http://www.umlim.org/ontologies/TweetMapping#OWLNamedIndividual_59b211c9_2a56_445b_bdfd_d20781d7603d"/>
+        <OWLObjectProperty_f545e52b_f047_4408_bb84_baf366a18058 rdf:resource="http://www.umlim.org/ontologies/TweetMapping#OWLNamedIndividual_59b211c9_2a56_445b_bdfd_d20781d7603d"/>
+        <OWLObjectProperty_adf69cf6_8c1b_4a3c_86d4_66d1d418957a rdf:resource="http://www.umlim.org/ontologies/TweetMapping#OWLNamedIndividual_59b211c9_2a56_445b_bdfd_d20781d7603d"/>
+        <OWLObjectProperty_9c0dc221_235c_4375_93e4_4ebb9a89ee75 rdf:resource="http://www.umlim.org/ontologies/TweetMapping#OWLNamedIndividual_59b211c9_2a56_445b_bdfd_d20781d7603d"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

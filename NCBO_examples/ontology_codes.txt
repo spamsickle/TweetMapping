@@ -1,0 +1,1508 @@
+Informed Consent Ontology
+http://data.bioontology.org/ontologies/ICO
+
+
+GeoSpecies Ontology
+http://data.bioontology.org/ontologies/GEOSPECIES
+
+
+Time Event Ontology
+http://data.bioontology.org/ontologies/TEO
+
+
+Translational Medicine Ontology
+http://data.bioontology.org/ontologies/TMO
+
+
+Regional Healthcare System Interoperability and Information Exchange Measurement Ontology
+http://data.bioontology.org/ontologies/HEIO
+
+
+Infectious Disease Ontology
+http://data.bioontology.org/ontologies/IDO
+
+
+FlyBase Controlled Vocabulary
+http://data.bioontology.org/ontologies/FB-CV
+
+
+Neuroscience Information Framework (NIF) Dysfunction Ontlogy
+http://data.bioontology.org/ontologies/NIFDYS
+
+
+Bilingual Ontology of Alzheimer's Disease and Related Diseases
+http://data.bioontology.org/ontologies/ONTOAD
+
+
+Tissue Microarray Ontology
+http://data.bioontology.org/ontologies/TMA
+
+
+HIVOntologymain.owl
+http://data.bioontology.org/ontologies/HIVO004
+
+
+Semanticscience Integrated Ontology
+http://data.bioontology.org/ontologies/SIO
+
+
+Protein Modification Ontology
+http://data.bioontology.org/ontologies/PSIMOD
+
+
+test
+http://data.bioontology.org/ontologies/A-Z
+
+
+Resource of Asian Primary Immunodeficiency Diseases (RAPID) Phenotype Ontology
+http://data.bioontology.org/ontologies/RPO
+
+
+Biomedical Informatics Research Network Project Lexicon
+http://data.bioontology.org/ontologies/BIRNLEX
+
+
+Pathway Ontology
+http://data.bioontology.org/ontologies/PW
+
+
+Ontology for Genetic Susceptibility Factor
+http://data.bioontology.org/ontologies/OGSF
+
+
+Open Biological and Biomedical Ontologies Relationship Types
+http://data.bioontology.org/ontologies/OBOREL
+
+
+PhenomeBLAST Ontology
+http://data.bioontology.org/ontologies/PHENOMEBLAST
+
+
+Ontology for Parasite LifeCycle
+http://data.bioontology.org/ontologies/OPL
+
+
+BioPortal Metadata Ontology
+http://data.bioontology.org/ontologies/BP-METADATA
+
+
+EDDA Study Design Terminology
+http://data.bioontology.org/ontologies/EDDA
+
+
+test_onto
+http://data.bioontology.org/ontologies/TESTONTO
+
+
+KB_Bio_101
+http://data.bioontology.org/ontologies/AURA
+
+
+General Formal Ontology for Biology
+http://data.bioontology.org/ontologies/GFO-BIO
+
+
+Family Health History Ontology
+http://data.bioontology.org/ontologies/FHHO
+
+
+Ontology of Data Mining Investigations
+http://data.bioontology.org/ontologies/ONTODM-KDD
+
+
+Ontology for General Medical Science
+http://data.bioontology.org/ontologies/OGMS
+
+
+Biomedical Resource Ontology
+http://data.bioontology.org/ontologies/BRO
+
+
+Plant Trait Ontology
+http://data.bioontology.org/ontologies/PTO
+
+
+Mouse Experimental Design Ontology
+http://data.bioontology.org/ontologies/MEDO
+
+
+Cognitive Atlas Ontology
+http://data.bioontology.org/ontologies/COGAT
+
+
+Health Level Seven Reference Implementation Model, Version 3
+http://data.bioontology.org/ontologies/HL7
+
+
+Cognitive Paradigm Ontology
+http://data.bioontology.org/ontologies/COGPO
+
+
+Amphibian Gross Anatomy Ontology
+http://data.bioontology.org/ontologies/AAO
+
+
+Upper-Level Cancer Ontology 
+http://data.bioontology.org/ontologies/CANONT
+
+
+Cell Culture Ontology
+http://data.bioontology.org/ontologies/CCONT
+
+
+Ontological Knowledge Base Model for Cystic Fibrosis
+http://data.bioontology.org/ontologies/ONTOKBCF
+
+
+Epilepsy Ontology
+http://data.bioontology.org/ontologies/EPILONT
+
+
+Experimental Factor Ontology
+http://data.bioontology.org/ontologies/EFO
+
+
+Traditional Medicine Other Factors Value Set
+http://data.bioontology.org/ontologies/TM-OTHER-FACTORS
+
+
+Genomic Clinical Decision Support Ontology
+http://data.bioontology.org/ontologies/GENE-CDS
+
+
+International Classification of Functioning, Disability and Health
+http://data.bioontology.org/ontologies/ICF
+
+
+Loggerhead Nesting Ontology
+http://data.bioontology.org/ontologies/LHN
+
+
+Parasite Experiment Ontology
+http://data.bioontology.org/ontologies/PEO
+
+
+Variation Ontology
+http://data.bioontology.org/ontologies/VARIO
+
+
+Ontology of Glucose Metabolism Disorder
+http://data.bioontology.org/ontologies/OGMD
+
+
+Ontology of Clinical Research
+http://data.bioontology.org/ontologies/OCRE
+
+
+Traditional Medicine Signs and Symptoms Value Set
+http://data.bioontology.org/ontologies/TM-SIGNS-AND-SYMPTS
+
+
+Fire Ontology
+http://data.bioontology.org/ontologies/FIRE
+
+
+Neglected Tropical Disease Ontology
+http://data.bioontology.org/ontologies/NTDO
+
+
+Glycomics Ontology
+http://data.bioontology.org/ontologies/GLYCO
+
+
+Randomized Controlled Trials Ontology
+http://data.bioontology.org/ontologies/RCTONT
+
+
+Ontology of Physics for Biology
+http://data.bioontology.org/ontologies/OPB
+
+
+Plant Anatomy
+http://data.bioontology.org/ontologies/PAE
+
+
+HIV ontology
+http://data.bioontology.org/ontologies/HIV
+
+
+Spider Ontology
+http://data.bioontology.org/ontologies/SPD
+
+
+Cancer Chemoprevention Ontology
+http://data.bioontology.org/ontologies/CANCO
+
+
+Ontology of Medically Related Social Entities
+http://data.bioontology.org/ontologies/OMRSE
+
+
+Taxonomy for Rehabilitation of Knee Conditions
+http://data.bioontology.org/ontologies/TRAK
+
+
+Ontology for Drug Discovery Investigations
+http://data.bioontology.org/ontologies/DDI
+
+
+Medical Dictionary for Regulatory Activities
+http://data.bioontology.org/ontologies/MEDDRA
+
+
+Situation-Based Access Control Ontology
+http://data.bioontology.org/ontologies/SITBAC
+
+
+Physico-Chemical Process
+http://data.bioontology.org/ontologies/REX
+
+
+NMR-Instrument Component of Metabolomics Investigations Ontology
+http://data.bioontology.org/ontologies/NMR
+
+
+suicideo
+http://data.bioontology.org/ontologies/SuicidO
+
+
+Menelas Project Top-Level Ontology
+http://data.bioontology.org/ontologies/TOP-MENELAS
+
+
+Comparative Data Analysis Ontology
+http://data.bioontology.org/ontologies/CDAO
+
+
+Biologie Hors Nomenclature
+http://data.bioontology.org/ontologies/BHN
+
+
+Mosquito Gross Anatomy Ontology
+http://data.bioontology.org/ontologies/TGMA
+
+
+Interaction Ontology
+http://data.bioontology.org/ontologies/IXNO
+
+
+National Drug Data File
+http://data.bioontology.org/ontologies/NDDF
+
+
+Influenza Ontology
+http://data.bioontology.org/ontologies/FLU
+
+
+Metagenome and Microbes Environmental Ontology
+http://data.bioontology.org/ontologies/MEO
+
+
+International Classification of Diseases, Version 9 - Clinical Modification
+http://data.bioontology.org/ontologies/ICD9CM
+
+
+Cerrado concepts and plant community dynamics
+http://data.bioontology.org/ontologies/CCON
+
+
+International Classification for Nursing Practice
+http://data.bioontology.org/ontologies/ICNP
+
+
+Protein Ontology
+http://data.bioontology.org/ontologies/PR
+
+
+BioModels Ontology
+http://data.bioontology.org/ontologies/BIOMODELS
+
+
+Bone Dysplasia Ontology
+http://data.bioontology.org/ontologies/BDO
+
+
+G Protein-Coupled Receptor BioAssays Ontology
+http://data.bioontology.org/ontologies/BAO-GPCR
+
+
+National Institutes of Health Stroke Scale Ontology
+http://data.bioontology.org/ontologies/NIHSS
+
+
+Bioinformatics Web Service Ontology
+http://data.bioontology.org/ontologies/OBIWS
+
+
+Minimal Anatomical Terminology
+http://data.bioontology.org/ontologies/MAT
+
+
+Minimal Standard Terminology of Digestive Endoscopy, French
+http://data.bioontology.org/ontologies/MSTDE-FRE
+
+
+Traditional Medicine Constitution Value Set
+http://data.bioontology.org/ontologies/TM-CONST
+
+
+Physical Medicine and Rehabilitation
+http://data.bioontology.org/ontologies/PMR
+
+
+Surgical Secondary Events
+http://data.bioontology.org/ontologies/SSE
+
+
+Chemical Entities of Biological Interest Ontology
+http://data.bioontology.org/ontologies/CHEBI
+
+
+Fungal Gross Anatomy Ontology
+http://data.bioontology.org/ontologies/FAO
+
+
+Quantities, Units, Dimensions, and Types Ontology
+http://data.bioontology.org/ontologies/QUDT
+
+
+Ontology of Core Data Mining Entities
+http://data.bioontology.org/ontologies/ONTODM-CORE
+
+
+RNRMU
+http://data.bioontology.org/ontologies/RNRMU
+
+
+Biological Collections Ontology
+http://data.bioontology.org/ontologies/BCO
+
+
+Measurement Method Ontology
+http://data.bioontology.org/ontologies/MMO
+
+
+Tick Gross Anatomy Ontology
+http://data.bioontology.org/ontologies/TADS
+
+
+DICOM Controlled Terminology
+http://data.bioontology.org/ontologies/DCM
+
+
+Anatomic Pathology Lexicon
+http://data.bioontology.org/ontologies/PATHLEX
+
+
+Xenopus Anatomy and Development Ontology
+http://data.bioontology.org/ontologies/XAO
+
+
+Eagle-I Research Resource Ontology
+http://data.bioontology.org/ontologies/ERO
+
+
+C. elegans Phenotype Vocabulary
+http://data.bioontology.org/ontologies/WB-PHENOTYPE
+
+
+EDAM bioinformatics operations, data types, formats, identifiers and topics
+http://data.bioontology.org/ontologies/EDAM
+
+
+Computational Neuroscience Ontology
+http://data.bioontology.org/ontologies/CNO
+
+
+Autism Spectrum Disorder Phenotype Ontology
+http://data.bioontology.org/ontologies/ASDPTO
+
+
+Microbial Typing Ontology
+http://data.bioontology.org/ontologies/TYPON
+
+
+Chemical Information Ontology
+http://data.bioontology.org/ontologies/CHEMINF
+
+
+General Formal Ontology
+http://data.bioontology.org/ontologies/GFO
+
+
+Biological Imaging Methods Ontology
+http://data.bioontology.org/ontologies/FBbi
+
+
+Rat Strain Ontology
+http://data.bioontology.org/ontologies/RS
+
+
+Human Disease Ontology
+http://data.bioontology.org/ontologies/DOID
+
+
+Clusters of Orthologous Groups (COG) Analysis Ontology
+http://data.bioontology.org/ontologies/CAO
+
+
+Human Developmental Anatomy Ontology, timed version
+http://data.bioontology.org/ontologies/EHDA
+
+
+Congenital Heart Defects Ontology
+http://data.bioontology.org/ontologies/CHD
+
+
+NGS ontology
+http://data.bioontology.org/ontologies/NGSONTO
+
+
+Minimal Information about any Sequence (MIxS) Controlled Vocabularies
+http://data.bioontology.org/ontologies/MIXSCV
+
+
+Ontology of Adverse Events
+http://data.bioontology.org/ontologies/OAE
+
+
+International Classification of Primary Care - 2 PLUS
+http://data.bioontology.org/ontologies/ICPC2P
+
+
+Reference Sequence Annotation
+http://data.bioontology.org/ontologies/RSA
+
+
+PharmGKB Ontology
+http://data.bioontology.org/ontologies/PHARMGKB
+
+
+Pharmacogenomic Relationships Ontology
+http://data.bioontology.org/ontologies/PHARE
+
+
+XEML Environment Ontology
+http://data.bioontology.org/ontologies/XEO
+
+
+Robert Hoehndorf Version of MeSH
+http://data.bioontology.org/ontologies/RH-MESH
+
+
+Tribolium Ontology
+http://data.bioontology.org/ontologies/TRON
+
+
+Cereal Plant Gross Anatomy Ontology
+http://data.bioontology.org/ontologies/GRO-CPGA
+
+
+Human Genome Organization Gene Symbols
+http://data.bioontology.org/ontologies/HUGO
+
+
+Amino Acid Ontology
+http://data.bioontology.org/ontologies/AMINO-ACID
+
+
+Solanaceae Phenotype Ontology
+http://data.bioontology.org/ontologies/SPTO
+
+
+World Health Organization (WHO) Adverse Reaction Terminology
+http://data.bioontology.org/ontologies/WHO-ART
+
+
+Bleeding History Phenotype Ontology
+http://data.bioontology.org/ontologies/BHO
+
+
+Mammalian Phenotype Ontology
+http://data.bioontology.org/ontologies/MP
+
+
+BioPAX Ontology of Biological Pathways
+http://data.bioontology.org/ontologies/BP
+
+
+Microbial Culture Collection Vocabulary
+http://data.bioontology.org/ontologies/MCCV
+
+
+National Cancer Institute Thesaurus
+http://data.bioontology.org/ontologies/NCIT
+
+
+Artificial Intelligence Rheumatology Consultant System Ontology
+http://data.bioontology.org/ontologies/AI-RHEUM
+
+
+Master Drug Data Base Clinical Drugs
+http://data.bioontology.org/ontologies/MDDB
+
+
+Coding Symbols for a Thesaurus of Adverse Reaction Terms
+http://data.bioontology.org/ontologies/COSTART
+
+
+Skin Physiology Ontology
+http://data.bioontology.org/ontologies/SPO
+
+
+Microarray and Gene Expression Data Ontology
+http://data.bioontology.org/ontologies/MO
+
+
+Non-Randomized Controlled Trials Ontology
+http://data.bioontology.org/ontologies/NONRCTO
+
+
+Medical image simulation
+http://data.bioontology.org/ontologies/OntoVIP
+
+
+Alzheimer's disease ontology
+http://data.bioontology.org/ontologies/ADO
+
+
+Regulation of Gene Expression Ontolology
+http://data.bioontology.org/ontologies/REXO
+
+
+Bone and Cartilage Tissue Engineering Ontology
+http://data.bioontology.org/ontologies/BCTEO
+
+
+Dengue Fever Ontology
+http://data.bioontology.org/ontologies/IDODEN
+
+
+Logical Observation Identifier Names and Codes
+http://data.bioontology.org/ontologies/LOINC
+
+
+Ontology for Genetic Disease Investigations
+http://data.bioontology.org/ontologies/OGDI
+
+
+Diabetes phenotypes ontology (ALPHA VERSION)
+http://data.bioontology.org/ontologies/DPO
+
+
+Pseudogene
+http://data.bioontology.org/ontologies/pseudo
+
+
+Mouse Pathology Ontology
+http://data.bioontology.org/ontologies/MPATH
+
+
+Human Physiology Simulation Ontology
+http://data.bioontology.org/ontologies/HUPSON
+
+
+Immunogenetics Ontology
+http://data.bioontology.org/ontologies/IMGT-ONTOLOGY
+
+
+Immune Disorder Ontology
+http://data.bioontology.org/ontologies/IMMDIS
+
+
+Ontology for MicroRNA Target Prediction
+http://data.bioontology.org/ontologies/OMIT
+
+
+Medical Subject Headings
+http://data.bioontology.org/ontologies/MESH
+
+
+RNA Ontology
+http://data.bioontology.org/ontologies/RNAO
+
+
+Vaccine Ontology
+http://data.bioontology.org/ontologies/VO
+
+
+Semantic DICOM Ontology
+http://data.bioontology.org/ontologies/SEDI
+
+
+Cell Line Ontology
+http://data.bioontology.org/ontologies/CLO
+
+
+Cell Line Ontology [by Mahadevan]
+http://data.bioontology.org/ontologies/MCCL
+
+
+Ontology of Geographical Region
+http://data.bioontology.org/ontologies/OGR
+
+
+Zebrafish Anatomy and Development Ontology
+http://data.bioontology.org/ontologies/ZFA
+
+
+Healthcare Common Procedure Coding System
+http://data.bioontology.org/ontologies/HCPCS
+
+
+International Classification of Diseases, Version 10 - Clinical Modification
+http://data.bioontology.org/ontologies/ICD10CM
+
+
+Physico-Chemical Methods and Properties
+http://data.bioontology.org/ontologies/FIX
+
+
+Drosophila Development Ontology
+http://data.bioontology.org/ontologies/FB-DV
+
+
+Hymenoptera Anatomy Ontology
+http://data.bioontology.org/ontologies/HAO
+
+
+International Classification of Diseases, Version 10 - Procedure Coding System
+http://data.bioontology.org/ontologies/ICD10PCS
+
+
+Plant Structure Development Stage
+http://data.bioontology.org/ontologies/PSDS
+
+
+Lipid Ontology
+http://data.bioontology.org/ontologies/LIPRO
+
+
+Clinical Measurement Ontology
+http://data.bioontology.org/ontologies/CMO
+
+
+Ontology of Vaccine Adverse Events
+http://data.bioontology.org/ontologies/OVAE
+
+
+Metagenome Sample Vocabulary
+http://data.bioontology.org/ontologies/MSV
+
+
+International Classification of Diseases, Version 10
+http://data.bioontology.org/ontologies/ICD10
+
+
+Environment Ontology
+http://data.bioontology.org/ontologies/ENVO
+
+
+RxNORM
+http://data.bioontology.org/ontologies/RXNORM
+
+
+Computer Retrieval of Information on Scientific Projects Thesaurus
+http://data.bioontology.org/ontologies/CRISP
+
+
+BRENDA Tissue and Enzyme Source Ontology
+http://data.bioontology.org/ontologies/BTO
+
+
+Gene Regulation Ontology
+http://data.bioontology.org/ontologies/GRO
+
+
+Malaria Ontology
+http://data.bioontology.org/ontologies/IDOMAL
+
+
+Cell Ontology
+http://data.bioontology.org/ontologies/CL
+
+
+Teleost Taxonomy Ontology
+http://data.bioontology.org/ontologies/TTO
+
+
+CPTAC Proteomics Pipeline Infrastructure Ontology
+http://data.bioontology.org/ontologies/CPTAC
+
+
+Human Interaction Network Ontology
+http://data.bioontology.org/ontologies/HINO
+
+
+Taxonomic Rank Vocabulary
+http://data.bioontology.org/ontologies/TAXRANK
+
+
+Vertebrate Homologous Organ Group Ontology
+http://data.bioontology.org/ontologies/VHOG
+
+
+Computer Assisted Brain Injury Rehabilitation Ontology
+http://data.bioontology.org/ontologies/CABRO
+
+
+Web-Service Interaction Ontology
+http://data.bioontology.org/ontologies/WSIO
+
+
+Disease core ontology applied to Rare Diseases
+http://data.bioontology.org/ontologies/HRDO
+
+
+Phenotypic Quality Ontology
+http://data.bioontology.org/ontologies/PATO
+
+
+Common Terminology Criteria for Adverse Events
+http://data.bioontology.org/ontologies/CTCAE
+
+
+Ascomycete Phenotype Ontology
+http://data.bioontology.org/ontologies/APO
+
+
+National Center for Biotechnology Information (NCBI) Organismal Classification
+http://data.bioontology.org/ontologies/NCBITAXON
+
+
+Protein-Protein Interaction Ontology
+http://data.bioontology.org/ontologies/PPIO
+
+
+Neuroscience Information Framework (NIF) Subcellular Ontology
+http://data.bioontology.org/ontologies/NIFSUBCELL
+
+
+Minimal Standard Terminology of Digestive Endoscopy
+http://data.bioontology.org/ontologies/MSTDE
+
+
+Systematized Nomenclature of Medicine - Clinical Terms
+http://data.bioontology.org/ontologies/SNOMEDCT
+
+
+Ontology of General Purpose Datatypes
+http://data.bioontology.org/ontologies/ONTODT
+
+
+Neuroscience Information Framework (NIF) Standard Ontology
+http://data.bioontology.org/ontologies/NIFSTD
+
+
+Soy Ontology
+http://data.bioontology.org/ontologies/SOY
+
+
+Ontology of Language Disorder in Autism
+http://data.bioontology.org/ontologies/LDA
+
+
+Neural Motor Recovery Ontology
+http://data.bioontology.org/ontologies/NEUMORE
+
+
+Software Ontology
+http://data.bioontology.org/ontologies/SWO
+
+
+Ontology of Biological and Clinical Statistics
+http://data.bioontology.org/ontologies/OBCS
+
+
+Mobile Genetic Element Ontology
+http://data.bioontology.org/ontologies/MEGO
+
+
+MicroRNA Ontology
+http://data.bioontology.org/ontologies/MIRNAO
+
+
+Fly Taxonomy
+http://data.bioontology.org/ontologies/FB-SP
+
+
+Radiology Lexicon
+http://data.bioontology.org/ontologies/RADLEX
+
+
+Image and Data Quality Assessment Ontology
+http://data.bioontology.org/ontologies/IDQA
+
+
+Galen Ontology
+http://data.bioontology.org/ontologies/GALEN
+
+
+NHS Quality Indicators
+http://data.bioontology.org/ontologies/NHSQI2009
+
+
+Ontology of Genes and Genomes
+http://data.bioontology.org/ontologies/OGG
+
+
+Biomedical Research Integrated Domain Group Model
+http://data.bioontology.org/ontologies/BRIDG
+
+
+Body System Terms from ICD11
+http://data.bioontology.org/ontologies/ICD11-BODYSYSTEM
+
+
+VIVO Ontology for Researcher Discovery
+http://data.bioontology.org/ontologies/VIVO
+
+
+Adverse Event Reporting Ontology
+http://data.bioontology.org/ontologies/AERO
+
+
+Systems Biology Ontology
+http://data.bioontology.org/ontologies/SBO
+
+
+Human Developmental Anatomy Ontology, abstract version 1
+http://data.bioontology.org/ontologies/EHDAA
+
+
+Cell Cycle Ontology
+http://data.bioontology.org/ontologies/CCO
+
+
+Gazetteer
+http://data.bioontology.org/ontologies/GAZ
+
+
+Vertebrate Trait Ontology
+http://data.bioontology.org/ontologies/VT
+
+
+Maize Gross Anatomy Ontology
+http://data.bioontology.org/ontologies/ZEA
+
+
+Ontology for Genetic Interval
+http://data.bioontology.org/ontologies/OGI
+
+
+Crop Ontology
+http://data.bioontology.org/ontologies/CO
+
+
+International Classification of  External Causes of Injuries
+http://data.bioontology.org/ontologies/ICECI
+
+
+Ontology of Pneumology
+http://data.bioontology.org/ontologies/ONTOPNEUMO
+
+
+Provenance Ontology
+http://data.bioontology.org/ontologies/PROVO
+
+
+Read Codes, Clinical Terms Version 3 (CTV3) 
+http://data.bioontology.org/ontologies/RCD
+
+
+Units of Measurement Ontology
+http://data.bioontology.org/ontologies/UO
+
+
+Breast Cancer Grading Ontology
+http://data.bioontology.org/ontologies/BCGO
+
+
+Neomark Oral Cancer Ontology, version 3
+http://data.bioontology.org/ontologies/NEOMARK3
+
+
+Brucellosis Ontology
+http://data.bioontology.org/ontologies/IDOBRU
+
+
+Breast Tissue Cell Lines Ontology
+http://data.bioontology.org/ontologies/MCBCC
+
+
+Role Ontology
+http://data.bioontology.org/ontologies/ROLEO
+
+
+Magnetic Resonance Dataset Acquisition Ontology
+http://data.bioontology.org/ontologies/ONL-MR-DA
+
+
+Dermatology Lexicon
+http://data.bioontology.org/ontologies/DERMLEX
+
+
+InterNano Nanomanufacturing Taxonomy
+http://data.bioontology.org/ontologies/InterNano
+
+
+Semantic Types Ontology
+http://data.bioontology.org/ontologies/STY
+
+
+BioTop Ontology
+http://data.bioontology.org/ontologies/BT
+
+
+Ontology of Alternative Medicine, French
+http://data.bioontology.org/ontologies/ONTOMA
+
+
+Mouse Gross Anatomy and Development Ontology
+http://data.bioontology.org/ontologies/EMAP
+
+
+Cigarette Smoke Exposure Ontology
+http://data.bioontology.org/ontologies/CSEO
+
+
+Mass Spectrometry Ontology
+http://data.bioontology.org/ontologies/MS
+
+
+Drug Interaction Knowledge Base Ontology
+http://data.bioontology.org/ontologies/DIKB
+
+
+Fission Yeast Phenotype Ontology
+http://data.bioontology.org/ontologies/FYPO
+
+
+Cellular microscopy phenotype ontology
+http://data.bioontology.org/ontologies/CMPO
+
+
+Student Health Record Ontology
+http://data.bioontology.org/ontologies/SHR
+
+
+Ontology for Newborn Screening Follow-up and Translational Research
+http://data.bioontology.org/ontologies/ONSTR
+
+
+Mental Functioning Ontology
+http://data.bioontology.org/ontologies/MF
+
+
+Genomic Feature and Variation Ontology
+http://data.bioontology.org/ontologies/GFVO
+
+
+Experimental Conditions Ontology
+http://data.bioontology.org/ontologies/XCO
+
+
+Vertebrate Taxonomy Ontology
+http://data.bioontology.org/ontologies/VTO
+
+
+C. elegans Gross Anatomy Vocabulary
+http://data.bioontology.org/ontologies/WB-BT
+
+
+Portfolio Management Application
+http://data.bioontology.org/ontologies/PMA
+
+
+Synthetic Biology Open Language Visual Ontology
+http://data.bioontology.org/ontologies/SBOL
+
+
+Subcellular Anatomy Ontology
+http://data.bioontology.org/ontologies/SAO
+
+
+Neural ElectroMagnetic Ontology
+http://data.bioontology.org/ontologies/NEMO
+
+
+Pathogen Transmission Ontology
+http://data.bioontology.org/ontologies/PTRANS
+
+
+Common Anatomy Reference Ontology
+http://data.bioontology.org/ontologies/CARO
+
+
+Units Ontology
+http://data.bioontology.org/ontologies/UNITSONT
+
+
+Neomark Oral Cancer Ontology, version 4
+http://data.bioontology.org/ontologies/NEOMARK4
+
+
+Neural-Immune Gene Ontology
+http://data.bioontology.org/ontologies/NIGO
+
+
+Santa Barbara Coastal Observation Ontology
+http://data.bioontology.org/ontologies/OBOE-SBC
+
+
+Reproductive Trait and Phenotype Ontology
+http://data.bioontology.org/ontologies/REPO
+
+
+Flora Phenotype Ontology
+http://data.bioontology.org/ontologies/FLOPO
+
+
+Botryllus schlosseri anatomy and development ontology
+http://data.bioontology.org/ontologies/BSAO
+
+
+Vital Sign Ontology
+http://data.bioontology.org/ontologies/VSO
+
+
+Habronattus Courtship Ontology
+http://data.bioontology.org/ontologies/HC
+
+
+Online Mendelian Inheritance in Man
+http://data.bioontology.org/ontologies/OMIM
+
+
+Veterans Health Administration National Drug File
+http://data.bioontology.org/ontologies/VANDF
+
+
+Interaction Network Ontology
+http://data.bioontology.org/ontologies/INO
+
+
+Mathematical Modelling Ontology
+http://data.bioontology.org/ontologies/MAMO
+
+
+Clinical Signs and Symptoms Ontology
+http://data.bioontology.org/ontologies/CSSO
+
+
+Cardiac Electrophysiology Ontology
+http://data.bioontology.org/ontologies/EP
+
+
+Syndromic Surveillance Ontology
+http://data.bioontology.org/ontologies/SSO
+
+
+Amphibian Taxonomy Ontology
+http://data.bioontology.org/ontologies/ATO
+
+
+Uber Anatomy Ontology
+http://data.bioontology.org/ontologies/UBERON
+
+
+Emotion Ontology
+http://data.bioontology.org/ontologies/MFOEM
+
+
+Cancer Research and Management ACGT Master Ontology
+http://data.bioontology.org/ontologies/ACGT-MO
+
+
+Terminological and Ontological Knowledge Resources Ontology
+http://data.bioontology.org/ontologies/TOK
+
+
+Minimal Information about any Sequence Ontology
+http://data.bioontology.org/ontologies/MIXS
+
+
+Medaka Fish Anatomy and Development Ontology
+http://data.bioontology.org/ontologies/MFO
+
+
+Eligibility Feature Hierarchy
+http://data.bioontology.org/ontologies/ELIG
+
+
+Statistics Ontology
+http://data.bioontology.org/ontologies/STATO
+
+
+Chemical Methods Ontology
+http://data.bioontology.org/ontologies/CHMO
+
+
+Evidence Codes Ontology
+http://data.bioontology.org/ontologies/ECO
+
+
+Pathogenic Disease Ontology
+http://data.bioontology.org/ontologies/PDO
+
+
+Diagnosis Ontology of Clinical Care Classification
+http://data.bioontology.org/ontologies/DOCCC
+
+
+Current Procedural Terminology
+http://data.bioontology.org/ontologies/CPT
+
+
+Dataset processing
+http://data.bioontology.org/ontologies/ONL-DP
+
+
+Sage Bionetworks Synapse Ontology
+http://data.bioontology.org/ontologies/SYN
+
+
+Sample Processing and Separation Techniques Ontology
+http://data.bioontology.org/ontologies/SEP
+
+
+Human Developmental Anatomy Ontology, abstract version 2
+http://data.bioontology.org/ontologies/EHDAA2
+
+
+Anatomical Entity Ontology
+http://data.bioontology.org/ontologies/AEO
+
+
+Enzyme Reaction Ontology for annotating Partial Information of chemical transformation
+http://data.bioontology.org/ontologies/PIERO
+
+
+Orphanet Rare Disease Ontology
+http://data.bioontology.org/ontologies/ORDO
+
+
+Regulation of Transcription Ontology
+http://data.bioontology.org/ontologies/RETO
+
+
+Information Artifact Ontology
+http://data.bioontology.org/ontologies/IAO
+
+
+Animal Natural History and Life History Ontology
+http://data.bioontology.org/ontologies/ADW
+
+
+Ontology of Physical Exercises
+http://data.bioontology.org/ontologies/OPE
+
+
+Kinetic Simulation Algorithm Ontology
+http://data.bioontology.org/ontologies/KISAO
+
+
+NanoParticle Ontology
+http://data.bioontology.org/ontologies/NPO
+
+
+Pharmacovigilance Ontology
+http://data.bioontology.org/ontologies/PVONTO
+
+
+Human Phenotype Ontology
+http://data.bioontology.org/ontologies/HP
+
+
+Cerebrotendinous Xanthomatosis Ontology
+http://data.bioontology.org/ontologies/CTX
+
+
+Name Reaction Ontology
+http://data.bioontology.org/ontologies/RXNO
+
+
+Spatial Ontology
+http://data.bioontology.org/ontologies/BSPO
+
+
+Allen Brain Atlas (ABA) Adult Mouse Brain Ontology
+http://data.bioontology.org/ontologies/ABA-AMB
+
+
+Mosquito Insecticide Resistance Ontology
+http://data.bioontology.org/ontologies/MIRO
+
+
+Bionutrition Ontology
+http://data.bioontology.org/ontologies/BNO
+
+
+Cereal Plant Development Ontology
+http://data.bioontology.org/ontologies/GRO-CPD
+
+
+Traditional Medicine Meridian Value Sets
+http://data.bioontology.org/ontologies/TM-MER
+
+
+Wheat Trait Ontology 
+http://data.bioontology.org/ontologies/CO-WHEAT
+
+
+Nursing Interventions Classification
+http://data.bioontology.org/ontologies/NIC
+
+
+Diagnostic Ontology
+http://data.bioontology.org/ontologies/DIAGONT
+
+
+Semantic Web for Earth and Environment Technology Ontology
+http://data.bioontology.org/ontologies/SWEET
+
+
+Single-Nucleotide Polymorphism (SNP) Ontology
+http://data.bioontology.org/ontologies/SNPO
+
+
+Epoch Clinical Trial Ontology
+http://data.bioontology.org/ontologies/CTONT
+
+
+African Traditional Medicine Ontology
+http://data.bioontology.org/ontologies/ATMO
+
+
+Porifera Ontology
+http://data.bioontology.org/ontologies/PORO
+
+
+Foundational Model of Anatomy
+http://data.bioontology.org/ontologies/FMA
+
+
+Symptom Ontology
+http://data.bioontology.org/ontologies/SYMP
+
+
+Cell Behavior Ontology
+http://data.bioontology.org/ontologies/CBO
+
+
+NeuroMorpho.Org species ontology
+http://data.bioontology.org/ontologies/NMOSP
+
+
+Terminology for the Description of Dynamics
+http://data.bioontology.org/ontologies/TEDDY
+
+
+Current Procedural Terminalogy Hierarchy
+http://data.bioontology.org/ontologies/CPTH
+
+
+Content Archive Resource Exchange Lexicon
+http://data.bioontology.org/ontologies/CARELEX
+
+
+Host Pathogen Interactions Ontology
+http://data.bioontology.org/ontologies/HPIO
+
+
+BioAssay Ontology
+http://data.bioontology.org/ontologies/BAO
+
+
+Mouse Adult Gross Anatomy Ontology
+http://data.bioontology.org/ontologies/MA
+
+
+Research Network and Patient Registry Inventory Ontology
+http://data.bioontology.org/ontologies/RNPRIO
+
+
+Computer-Based Patient Record Ontology
+http://data.bioontology.org/ontologies/CPRO
+
+
+International Classification for Patient Safety
+http://data.bioontology.org/ontologies/ICPS
+
+
+suicideonto
+http://data.bioontology.org/ontologies/suicideo
+
+
+Neuroscience Information Framework (NIF) Cell Ontology
+http://data.bioontology.org/ontologies/NIFCELL
+
+
+Systems Chemical Biology and Chemogenomics Ontology 
+http://data.bioontology.org/ontologies/CHEMBIO
+
+
+Teleost Anatomy Ontology
+http://data.bioontology.org/ontologies/TAO
+
+
+Vertebrate Skeletal Anatomy Ontology
+http://data.bioontology.org/ontologies/VSAO
+
+
+Beta Cell Genomics Ontology
+http://data.bioontology.org/ontologies/OBI_BCGO
+
+
+C. elegans Development Vocabulary
+http://data.bioontology.org/ontologies/WB-LS
+
+
+Dispedia Core Ontology
+http://data.bioontology.org/ontologies/DCO
+
+
+Proteomics Data and Process Provenance Ontology
+http://data.bioontology.org/ontologies/PROPREO
+
+
+Population and Community Ontology
+http://data.bioontology.org/ontologies/PCO
+
+
+Suggested Ontology for Pharmacogenomics
+http://data.bioontology.org/ontologies/SOPHARM
+
+
+MedlinePlus Health Topics
+http://data.bioontology.org/ontologies/MEDLINEPLUS
+
+
+Ontology of Homology and Related Concepts in Biology
+http://data.bioontology.org/ontologies/HOM
+
+
+National Drug File - Reference Terminology
+http://data.bioontology.org/ontologies/NDFRT
+
+
+Ontology of Experimental Variables and Values
+http://data.bioontology.org/ontologies/OOEVV
+
+
+Nursing Care Coordination Ontology
+http://data.bioontology.org/ontologies/NCCO
+
+
+Phylogenetic Ontology
+http://data.bioontology.org/ontologies/PHYLONT
+
+
+Gene Ontology Extension
+http://data.bioontology.org/ontologies/GO-EXT
+
+
+Quantitative Imaging Biomarker Ontology
+http://data.bioontology.org/ontologies/QIBO
+
+
+Sequence Types and Features Ontology
+http://data.bioontology.org/ontologies/SO
+
+
+Ontology for Biomedical Investigations
+http://data.bioontology.org/ontologies/OBI
+
+
+Genome Component Ontology
+http://data.bioontology.org/ontologies/GCO
+
+
+Physician Data Query
+http://data.bioontology.org/ontologies/PDQ
+
+
+Drosophila Gross Anatomy Ontology
+http://data.bioontology.org/ontologies/FB-BT
+
+
+Fanconi Anemia Ontology
+http://data.bioontology.org/ontologies/IFAR
+
+
+Gene Ontology
+http://data.bioontology.org/ontologies/GO
+
+
+Basic Formal Ontology
+http://data.bioontology.org/ontologies/BFO
+
+
+Major Histocompatibility Complex Ontology
+http://data.bioontology.org/ontologies/MHC
+
+
+The Drug Ontology
+http://data.bioontology.org/ontologies/DRON
+
+
+Mental State Assessment
+http://data.bioontology.org/ontologies/ONL-MSA
+
+
+Biodiversity Ontology
+http://data.bioontology.org/ontologies/BOF
+
+
+Sleep Domain Ontology
+http://data.bioontology.org/ontologies/SDO
+
+
+Natural Products Ontology
+http://data.bioontology.org/ontologies/NATPRO
+
+
+International Classification of Primary Care
+http://data.bioontology.org/ontologies/ICPC
+
+
+Neuro Behavior Ontology
+http://data.bioontology.org/ontologies/NBO
+
+
+Pediatric Terminology
+http://data.bioontology.org/ontologies/PEDTERM
+
+
+Dictyostelium Discoideum Anatomy Ontology
+http://data.bioontology.org/ontologies/DDANAT
+
+
+SysMO JERM Ontology of Systems Biology for Micro-Organisms
+http://data.bioontology.org/ontologies/JERM
+
+
+Plant Environmental Conditions
+http://data.bioontology.org/ontologies/PECO
+
+
+Human Dermatological Disease Ontology
+http://data.bioontology.org/ontologies/DERMO
+
+
+PhenX Phenotypic Terms
+http://data.bioontology.org/ontologies/PHENX
+
+
+Systematized Nomenclature of Medicine, International Version
+http://data.bioontology.org/ontologies/SNMI
+
+
+Electrocardiography Ontology
+http://data.bioontology.org/ontologies/ECG
+
+
+Plant Ontology
+http://data.bioontology.org/ontologies/PO
+
+
