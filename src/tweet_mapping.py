@@ -26,6 +26,9 @@
 import urllib2
 import json
 import os
+import fnmatch
+import csv
+
 from pprint import pprint
 
 import ConfigParser, os
@@ -43,31 +46,64 @@ def main():
     f = open(config.get('NCBO','rest_api_keyfile'))
     API_KEY = f.readline().strip('\n')
     f.close()
-    print config.get('Data','result_file')
-    output = open(config.get('Data','result_file'),'w')
-    output.write('tweet_link,char_from,char_to,matched,ontology,code,ann_link\n')
+    ont_list = config.get('NCBO','ontologies')
 
+    output = open(config.get('Data','result_file'),'w')
+    output.write('trackback_permalink,char_from,char_to,matched,ontology,code,ann_link\n')
+
+    data_loc = config.get('Data','data_path')
     REST_URL = "http://data.bioontology.org"
 
+    individuals = config.get('Data','individual_files').lower()
+    if individuals == 'true':
+        output.write('Creating single files in the data directory.\n')
+    else:
+        print 'Writing to: ' + config.get('Data','result_file')
+
+
     # Get input tweet information
-    tweet_text = "@subatomicdoc: Tumor HPV status and invasive squamous cell carcinoma of the anus http://t.co/Du8NUMzkLR &gt;@umassmemorial #ASCO14 #ancsm"
-    tweet_link = 'http://twitter.com/ABumRap/status/473104369815404544' + ','
+    matches = []
+    for root, dirnames, filenames in os.walk(data_loc):
+        for filename in fnmatch.filter(filenames, '*.csv'):
+            matches.append(os.path.join(root, filename))
 
-    print "Annotating: " + tweet_text + '\n\n'
+    for csv_file in matches:
+        print 'Processing: ', csv_file + '\n\n'
 
-    # Annotator call
-    annotation = get_json(API_KEY, REST_URL + "/annotator?text=" + urllib2.quote(tweet_text)+"&ontologies=ICD10,LOINC,SNOMEDCT")
+        if individuals == 'true':
+            outfile = open(csv_file + '_annotation','w')
+            outfile.write('trackback_permalink,char_from,char_to,matched,ontology,code,ann_link\n')
 
-    for n in range(0, len(annotation)):
-        char_from = str(annotation[n]['annotations'][0]['from']) + ','
-        char_to = str(annotation[n]['annotations'][0]['to']) + ','
-        matched = annotation[n]['annotations'][0]['text'] + ','
-        ann_link = annotation[n]['annotatedClass']['@id'] + '\n'
+        data = csv.reader(open(csv_file,'rb'), delimiter=',')
+        # dump the first row
+        data.next()
 
-        code = annotation[n]['annotatedClass']['@id'].split('/')[-1] + ','
-        onto = annotation[n]['annotatedClass']['@id'].split('/')[-2] + ','
+        for row in data:
+            tweet_text = row[3]
+            tweet_link = row[5] + ','
 
-        output.write(tweet_link+char_from+char_to+matched+onto+code+ann_link)
+            print "Annotating: " + tweet_text + '\n\n'
+
+            # Annotator call
+            annotation = get_json(API_KEY, REST_URL + "/annotator?text=" + urllib2.quote(tweet_text)+"&ontologies="+ont_list)
+
+            for n in range(0, len(annotation)):
+                char_from = str(annotation[n]['annotations'][0]['from']).strip() + ','
+                char_to = str(annotation[n]['annotations'][0]['to']).strip() + ','
+                matched = annotation[n]['annotations'][0]['text'] + ','
+                ann_link = annotation[n]['annotatedClass']['@id'] + '\n'
+
+                code = (annotation[n]['annotatedClass']['@id'].split('/')[-1]).strip() + ','
+                onto = (annotation[n]['annotatedClass']['@id'].split('/')[-2]).strip() + ','
+
+                if individuals == 'true':
+                    outfile.write(tweet_link+char_from+char_to+matched+onto+code+ann_link)
+                else:
+                    output.write(tweet_link+char_from+char_to+matched+onto+code+ann_link)
+        if individuals == 'true':
+            outfile.close()
+
+
     output.close()
 
 
