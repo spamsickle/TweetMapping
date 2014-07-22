@@ -54,9 +54,9 @@ annotations = get_json(REST_URL + "/annotator?text=" + urllib2.quote(text_to_ann
 print_annotations(annotations)
 
 # Annotate with hierarchy information
-annotations = get_json(REST_URL + "/annotator?max_level=3&text=" + urllib2.quote(text_to_annotate))
+annotations = get_json(REST_URL + "/annotator?max_level=3&ontologies=ICD10,LOINC&text=" + urllib2.quote(text_to_annotate))
 print_annotations(annotations)
 
 # Annotate with prefLabel, synonym, definition returned
-annotations = get_json(REST_URL + "/annotator?include=prefLabel,synonym,definition&text=" + urllib2.quote(text_to_annotate))
+annotations = get_json(REST_URL + "/annotator?include=prefLabel,synonym,definition&ontologies=ICD10,LOINC&text=" + urllib2.quote(text_to_annotate))
 print_annotations(annotations, False)
