@@ -64,7 +64,7 @@ The output file(s) are CSV files with the following format:
 *  ann_link - the PURL (permanent) link to the code on the bioportal 
 
 
- 
+The trackback_permalink can be used to find the original tweet. 
  
 
 
